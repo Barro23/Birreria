@@ -3,8 +3,8 @@
     <div class="container ">
         <!--Logo e Nome -->
         <a href="{{ url('/') }}" class="onavbar-brand mx-auto mx-lg-0 d-flex align-items-center">
-            <img src="{{asset('images/logo_ifg.png')}}" class="logo" alt="">
-            <span class="text-light">SECITEC 2023</span>
+            <img src="{{asset('')}}" class="logo" alt="">
+            <span class="text-light">IMg Birreria</span>
         </a>
         <!--Ícone toggle, quando a ospções estiverem escondidas -->
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
