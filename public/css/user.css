@@ -1,0 +1,378 @@
+:root 
+{
+    --yellow: #f8ef02;
+    --cyan: #00ffd2;
+    --red: #ff003c;
+    --blue: #136377;
+    --green: #446d44;
+    --purple: purple;
+    --black: #000;
+    --white: #fff;
+    --dark: #333;
+}
+
+.user-eventos {
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 !important;
+}
+
+.user-name {
+    margin: 30px 0;
+
+}
+
+.link-modal-user {
+    text-decoration: underline;
+    font-weight: bolder;
+    color:#0693e3;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.user-page-title {
+    font-size: 3rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.user-page-title > strong {
+    color: green;
+}
+
+.event-card {
+    display: flex;
+    height: max-content;
+    padding: 10px !important;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(228, 238, 228);
+}
+
+.event-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.event-content > button {
+    width: 200px;
+}
+
+.tipo-evento-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.tipo-evento {
+    color: #0693e3;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: auto !important;
+    border-radius: 5px;
+}
+
+#regras-list {
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+.aviso-presenca {
+    font-size: 1.5rem;
+}
+
+.vagas-evento {
+    text-align: end;
+    font-size: 1.5rem;
+}
+
+.vagas-evento > span > strong {
+    color: green;
+}
+
+.accordion-body-eventos {
+    background-color: rgb(239, 236, 236) !important;
+}
+
+.card-titulo {
+    color: green;
+}
+
+.alerta-custom {
+    position: fixed;
+    display: none;
+    top: 90px;
+    right: 5px;
+    padding: 15px 35px;
+    z-index: 1000000;
+    border-radius: 3px;
+    background-color: #333; 
+    transition: top 0.5s ease-in-out; 
+}
+
+.alerta-custom > p {
+    margin: 0 !important;
+    color: white !important;
+}
+
+.avatar-proponente {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.avatar-proponente-hackathon {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid rgba(255, 255, 255, 0.282) ;
+    box-shadow: rgba(255, 255, 255, 0.111) 1.95px 1.95px 2.6px;
+}
+
+.avatar-proponente img,  .avatar-proponente-hackathon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.avatares-wrapper {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.card-footer > .row {
+    height: 50px;
+}
+
+.proponente-wrapper-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.proponente-wrapper-modal-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px !important;
+    overflow: hidden;
+}
+
+.proponente-wrapper-modal-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-title-proponente {
+    text-align: center;
+}
+
+#modalProponentesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.remover-horario {
+    display: none;
+}
+
+.hackathon {
+    font-family: 'Share Tech', sans-serif !important;
+}
+
+.hack-title {
+    margin: 0 !important;
+}
+
+.hack-tema-color {
+    color: #F94C10 !important;
+}
+
+.hack-tema-bg {
+    background-color: #F94C10 !important;
+}
+
+.hack-tema-color-secondary {
+    color: #855cd6 !important;
+}
+
+.hack-tema-bg-secondary {
+    background-color: #855cd6 !important;
+}
+
+.accordion-body-hackathon {
+    background-color: var(--dark);
+    padding: 20px 50px !important;
+}
+
+.accordion-body-hackathon p, li{
+    color: var(--white) !important;
+}
+
+.accordion-body-hackathon h2{
+    color: gray;
+}
+
+.hack_saiba_mais {
+    font-weight: bolder !important;
+    color: #0693e3;
+}
+
+.hack-avisos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hack-avisos > li > strong {
+    color: #F94C10 !important;
+}
+
+.vagas-hackathon-row {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.vagas-hackathon-row div,  .vagas-hackathon-row p {
+    width: max-content;
+    color: white;
+}
+
+#jerry-rig {
+    margin-top: 30px;
+}
+
+/*#region tables*/
+table.cyber-table
+{
+    padding: 0 !important;
+    border: none !important;
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+table.cyber-table th,
+table.cyber-table td
+{
+    border: 1px solid white;
+    padding: .2rem .5rem;
+    color: white;
+}
+
+table.cyber-table thead th
+{
+    border-bottom-width: 2px ;
+}
+
+table.cyber-table::before,
+table.cyber-table::after
+{
+    content: ' ';
+    width: 100%;
+    display: block;
+    background-color: var(--ac);
+    position: relative;
+    height: 6px;
+}
+
+table.cyber-table::before,
+table.cyber-table.cyber-style-0::before
+{
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 80% 0, calc(80% - 6px) 100%, 30% 100%, calc(30% - 6px) 0, 6px 0);
+}
+
+table.cyber-table::after,
+table.cyber-table.cyber-style-0::after
+{
+    clip-path: polygon(60% 0, calc(60% + 6px) 100%, 100% 100%, 100% 0);
+}
+
+table.cyber-table.cyber-style-1::before
+{
+    clip-path: polygon(0 100%, 6px 0, 10% 0, 10% 100%, 80% 100%, 
+                       calc(80% + 6px) 0, 95% 0, 95% 100%, calc(95% + 6px) 100%, calc(95% + 6px) 0, calc(95% + 2 * 6px) 0, calc(95% + 2 * 6px) 100%,
+                       calc(95% + 3 * 6px) 100%, calc(95% + 3 * 6px) 0, 100%  0, 100% 100%);
+}
+
+table.cyber-table.cyber-style-1::after
+{
+    clip-path: polygon(100% 0, 100% 100%, calc(100% - 6px) 100%, calc(100% - 6px) 0,
+                       calc(100% - 2 * 6px) 0, calc(100% - 2 * 6px) 100%, 90% 100%, 90% 0, 75% 0, 75% 100%, 60% 100%, calc(60% - 6px) 0);
+}
+
+table.cyber-table.cyber-style-2::before
+{
+ 
+    clip-path: polygon(0 100%, 6px 0, calc(2 * 6px) 100%, calc(3 * 6px) 0, calc(4 * 6px + 10%) 0,calc(4 * 6px + 10%) 50%,
+                        35% 50%, 35% 100%, 70% 100%, 70% 50%, 80% 50%, 80% 100%);
+}
+
+table.cyber-table.cyber-style-2::after
+{
+ 
+    clip-path: polygon(0 0, 0 50%, 10% 50%, 10% 0, 30% 0, 30% 100%, 40% 100%, 40% 0,
+                        70% 0, 70% 50%, 80% 50%, 80% 100%, 90% 100%, calc(100% - 6px) 100%, 100% 0);
+}
+
+.code,
+code,
+.code-block
+{
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+    padding: .3rem .4rem .2rem .4rem;
+    font-size: .75rem;
+    margin-bottom: 3px;
+    box-shadow: black 2px 2px 10px;
+    display: flex !important;
+    gap: 5px;
+}
+
+.code-block
+{
+    clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
+    display: block;
+    padding: .5rem .6rem .4rem .6rem;
+}
+.code-block::before
+{
+    content: attr(data-title);
+    display: block;
+    color: var(--yellow);
+    text-shadow: var(--cyan) 1px 1px;
+}
+
+@media (max-width: 768px) {
+    .tb-descricao {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .accordion-body-hackathon {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+
