@@ -15,3 +15,6 @@ use App\Http\Controllers\Controller;
 */
 
 Route::get('/', [Controller::class, 'viewHome']);
+
+// Rotas do AdministradorController para funções do administrador
+Route::get('/admin/home', [AdministradorController::class, 'viewHome']);
