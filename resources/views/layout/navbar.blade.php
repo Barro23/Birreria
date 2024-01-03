@@ -23,7 +23,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll"  href="{{ url('/sobre') }}">Sobre</a>
+                    <a class="nav-link click-scroll"  href="{{ url('/birre') }}">Birre</a>
                 </li>
                 
                 <li class="nav-item">

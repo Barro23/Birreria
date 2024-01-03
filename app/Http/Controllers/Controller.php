@@ -13,5 +13,8 @@ class Controller extends BaseController
     public function viewHome(){
         return view("home.view");
     }
+    public function viewBirre(){
+        return view("user.produtos");
+    }
     
 }
