@@ -7,15 +7,15 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 col-lg-8">
-        <img src="{{asset('images/rodape.png')}}" alt="" class="img-fluid ">
+        <!-- img footer -->
+        <img src="{{asset('')}}" alt="" class="img-fluid ">
       </div>
     </div>
     
     <div class="row">
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
         <p class="">
-          © 2023 Copyright:
-          <a class="text-dark link-underline-success link-tutorial" href="{{ url('/creditos') }}" target="_blank">Créditos</a>
+          © 2023 Copyright: 
         </p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
