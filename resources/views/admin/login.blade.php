@@ -34,11 +34,11 @@
                         @csrf
                         @method("POST")
                         <div class="form-floating mb-3">
-                            <input type="text" name="txtNome" placeholder="Informe o Nome:" class="form-control" required>
+                            <input type="text" name="txtNome" placeholder="Nome:" class="form-control" required>
                             <label for="floatingInput">Nome</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" name="txtSenha" placeholder="Informe a senha:" class="form-control" required>
+                            <input type="password" name="txtSenha" placeholder="Senha:" class="form-control" required>
                             <label for="floatingPassword">Senha</label>
                         </div>
 
