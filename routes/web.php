@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\AdministradorController;
+use App\Http\Controllers\ValidarAdmController;
 
 /*
 |--------------------------------------------------------------------------
