@@ -18,7 +18,7 @@ class ValidarAdmController extends Controller
             if(isset($_COOKIE['usuario']) || isset($_COOKIE['nome_usuario'])){
                 return redirect("/");
             }
-            return view("admin.entrar");
+            return view("admin.login");
         }
     }
 
@@ -47,18 +47,6 @@ class ValidarAdmController extends Controller
             setcookie("ADM_USER", $login, time() + (86400 * 30), "/");
             setcookie("ADM_PASSWORD", $senha, time() + (86400 * 30), "/");
             setcookie("ADM_TIPO", "0", time() + (86400 * 30), "/");
-            return true;
-
-        }else if($login == env('ADM_MONITORAMENTO_USER') && $senha == env('ADM_MONITORAMENTO_PASSWORD')){
-            setcookie("ADM_USER", $login, time() + (86400 * 30), "/");
-            setcookie("ADM_PASSWORD", $senha, time() + (86400 * 30), "/");
-            setcookie("ADM_TIPO", "1", time() + (86400 * 30), "/");
-            return true;
-
-        }else if($login == env('ADM_PRESENCA_USER') && $senha == env('ADM_PRESENCA_PASSWORD')){
-            setcookie("ADM_USER", $login, time() + (86400 * 30), "/");
-            setcookie("ADM_PASSWORD", $senha, time() + (86400 * 30), "/");
-            setcookie("ADM_TIPO", "2", time() + (86400 * 30), "/");
             return true;
 
         }else{
