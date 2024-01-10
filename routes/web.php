@@ -24,3 +24,4 @@ Route::get('/admin/home', [AdministradorController::class, 'viewHome']);
 
 Route::get('/admin', [ValidarAdmController::class, 'viewAdm']);
 Route::post('/admin/login', [ValidarAdmController::class, 'entrar']);
+Route::get('/admin/sair', [ValidarAdmController::class, 'sair']);
