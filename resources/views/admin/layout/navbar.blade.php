@@ -1,7 +1,7 @@
 <header class="mb-5">
     <nav class="navbar navbar-expand-lg text-light"  style="background-color:#1d1d1b;">
         <div class="container">
-            <a class="navbar-brand" href="{{url('/admin')}}"><img src="{{asset('images/logo_ifg.png')}}" height="64" ></a>
+            <a class="navbar-brand" href="{{url('/admin')}}"><img src="{{asset('')}}" height="64" ></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
