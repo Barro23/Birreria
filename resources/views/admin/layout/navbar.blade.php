@@ -18,13 +18,13 @@
 
 
                             <li class="nav-item">
-                                <a class="nav-link px-3 fw-bold" href="{{url('/admin/proponente')}}">PROPONENTES</a>
+                                <a class="nav-link px-3 fw-bold" href="{{url('/admin/proponente')}}">Cadastrar</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3 fw-bold" href="{{url('/admin/eventos')}}">EVENTOS</a>
+                                <a class="nav-link px-3 fw-bold" href="{{url('/admin/eventos')}}">Renda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3 fw-bold" href="{{url('/admin/adicionar-usuario')}}">USUÁRIOS</a>
+                                <a class="nav-link px-3 fw-bold" href="{{url('/admin/adicionar-usuario')}}">Atualizar Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-3 fw-bold" href="{{url('/admin/logs')}}">LOGS</a>
