@@ -18,6 +18,7 @@ use App\Http\Controllers\ValidarAdmController;
 
 Route::get('/', [Controller::class, 'viewHome']);
 Route::get('/birre', [Controller::class, 'viewBirre']);
+Route::get('/login', [Controller::class, 'viewLogin']);
 
 // Rotas do AdministradorController para funções do administrador
 Route::get('/admin/home', [AdministradorController::class, 'viewHome']);
