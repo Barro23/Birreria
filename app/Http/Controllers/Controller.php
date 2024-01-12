@@ -16,5 +16,8 @@ class Controller extends BaseController
     public function viewBirre(){
         return view("user.produtos");
     }
+    public function viewLogin(){
+        return view("usuarios.loginUser.view");
+    }
     
 }
