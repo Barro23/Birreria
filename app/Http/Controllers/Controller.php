@@ -17,10 +17,10 @@ class Controller extends BaseController
         return view("user.produtos");
     }
     public function viewLogin(){
-        return view("usuarios.loginUser.view");
+        return view("user.loginUser.view");
     }
     public function viewCadastrar(){
-        return view("usuarios.cadastrarUser.verificarEmail");
+        return view("user.cadastrarUser.verificarEmail");
     }
     
 }
