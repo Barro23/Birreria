@@ -19,7 +19,7 @@
                         </li>
                     </ul>
 
-                    <form action="{{url('/usuarios/verificar-email')}}" method="post">
+                    <form action="{{url('/user/verificar-email')}}" method="post">
                         @csrf
                         @method('POST')
                         <div class="input-group mb-2">
