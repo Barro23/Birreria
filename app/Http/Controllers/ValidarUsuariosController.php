@@ -163,7 +163,7 @@ class ValidarUsuariosController extends Controller
     // link é o mesmo armazenado no bando de dados na tb_usuario, quando o 
     // usuário acessar o link, a conta dele é ativada e o token é apagado
     public function enviarEmail($email, $endpoint, $tipo){
-        $url = "https://secitecformosa.online/".$endpoint;
+        $url = "".$endpoint;
         Mail::to($email)->send(new AtivarConta($url, $tipo));
     }
 
