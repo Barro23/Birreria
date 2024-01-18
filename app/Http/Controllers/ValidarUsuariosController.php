@@ -38,7 +38,7 @@ class ValidarUsuariosController extends Controller
 
         $usuarios = DB::select("SELECT cpf FROM tb_usuario WHERE cpf = ?;", [$cpf]);
         if(count($usuarios) > 0){
-            AlertController::alert("CPF já cadastrado(s)", "danger");
+            AlertController::alert("CPF já cadastrado", "danger");
             return redirect("/usuarios/cadastrar/".$token);
         }else{
             try {
