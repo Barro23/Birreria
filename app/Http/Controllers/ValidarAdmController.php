@@ -29,7 +29,7 @@ class ValidarAdmController extends Controller
             AlertController::alert('Logado com sucesso.', 'success');
             return redirect("/admin");
         }else{
-            AlertController::alert('Usuáio ou senha incorreto(s)', 'danger');
+            AlertController::alert('Usuário ou senha incorreto(s)', 'danger');
             return redirect("/admin");
         }
     }
