@@ -29,7 +29,7 @@
                             <small class="opacity-50">Informe o seu email. Será enviado um email com link para você. <br> <strong>Cheque o a sua caixa de entrada e sua caixa de spam</strong>.</small>
                         </div>
                         <button class="btn btn-success w-100" type="submit" onclick="loading(this)">
-                            Enviar email
+                            Enviar Email
                         </button>
                     </form>
 
